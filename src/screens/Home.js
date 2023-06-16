@@ -2,8 +2,6 @@ import React, { useState } from 'react';
 import { View, Text, StyleSheet, FlatList, TouchableOpacity, ScrollView } from 'react-native';
 import { PieChart } from 'react-native-svg-charts';
 import Header from '../components/Header';
-import MyTabs from '../components/BottomBar';
-import { black } from 'react-native-paper/lib/typescript/src/styles/themes/v2/colors';
 
 const FlatCards = ({ cards }) => {
   const renderSeparator = () => (
